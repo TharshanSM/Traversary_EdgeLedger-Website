@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1100px)"
+      href="css/widescreen.css"
+    />
+
+    <title>EdgeLedger Website</title>
+  </head>
+
+  <body class="home">
+    <nav class="navbar" id="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span
+        >Ledger
+      </h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">The Sky is the Limit</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          dolores veniam ex, odit saepe consequatur.
+        </p>
+        <a id="#what" class="btn" href="">Read More</a>
+      </div>
+    </header>
+    <!-- Section -->
+    <section class="bg-light py-1" id="what">
+      <div class="container">
+        <h2 class="m-heading"><span class="text-primary">What</span> We Do</h2>
+        <div class="items py-1">
+          <div class="item">
+            <span><i class="fas fa-university fa-2x"></i></span>
+            <div>
+              <h3>Invest Banking</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
+                voluptas?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <span><i class="fas fa-university fa-2x"></i></span>
+            <div>
+              <h3>Invest Banking</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
+                voluptas?
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <span><i class="fas fa-university fa-2x"></i></span>
+            <div>
+              <h3>Invest Banking</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
+                voluptas?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who we are section -->
+    <section id="who">
+      <div class="who-we-are">
+        <div class="img"></div>
+        <div class="info bg-dark">
+          <h2 class="m-heading">
+            <span class="text-primary">Who</span> We are
+          </h2>
+          <p class="py-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            excepturi blanditiis optio velit odio laborum.
+          </p>
+          <h3>Our Team</h3>
+          <ul class="list">
+            <li>Mark Smith: CEO</li>
+            <li>Shannon Johnson: CFO</li>
+            <li>John Corbit: Lead Accountant</li>
+            <li>Janet Williams: Investment Manager</li>
+            <li>Kara Jackson: Senior Accountant</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-1">
+      <div class="container">
+        <div>
+          <h2 class="m-heading">
+            <span class="text-primary">Our</span> Clients
+          </h2>
+        </div>
+        <div class="items py-1">
+          <div><img src="./img/logos/logo1.png" alt="" /></div>
+          <div><img src="./img/logos/logo2.png" alt="" /></div>
+          <div><img src="./img/logos/logo3.png" alt="" /></div>
+          <div><img src="./img/logos/logo4.png" alt="" /></div>
+          <div><img src="./img/logos/logo5.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Form -->
+    <section class="contact" id="contact">
+      <div class="contact-form p-2 bg-primary">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+
+        <form class="py-1">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="number">Phone Number</label>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              required
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Send" />
+        </form>
+      </div>
+      <div class="map" id="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer bg-dark">
+        <div class="container">
+          <p>Copyright © 2022, EdgeLedger, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+#what .items .item span {
+  margin-right: 20px;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+#who .who-we-are {
+  display: block;
+}
+
+#who .img {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+}
